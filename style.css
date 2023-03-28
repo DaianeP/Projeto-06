@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-default: 'Staatliches', cursive;
+    --ff-tiny: 'Palanquin', sans-serif;
+
+    --bg-dark: #8E9AAF;
+    --bg-clear: #EFF1FF;
+    --bg-space: #CBC0D3;
+
+    --fc-primary: #FFFFFF;
+    --fc-second: #23053A;
+    --fc-third: #23053A; 
+    --fc-fourth: #FEEAFA;
+
+    font-size: 62.5%;
+    --fs-header: 4rem;
+    --fs-body: 2rem;
+}
+
+header {
+    font-family: var(--ff-default);
+    background-color: var(--bg-dark);
+    color: var(--fc-primary);
+
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+#logo {
+    margin-bottom: 3.2rem;
+    padding-top: 3.2rem;
+}
+
+#texto{
+    background-color: var(--bg-space);
+   margin-bottom: 2.9rem;
+}
+#texto h1 {
+    color: var(--fc-primary);
+    font-size: var(--fs-header);
+    
+}
+
+body {
+    font-family: var(--ff-default);
+    background-color: var(--bg-clear);
+    font-size: var(--fs-body);
+
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+img {
+    /* width: 100%; */
+    margin: auto;
+}
+
+main p {
+    font-family: var(--ff-tiny);
+    color: var(--fc-third);
+    font-size: var(--fs-body);
+    line-height: 15px;
+    padding: 1.4rem 0 6.3rem;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.containerImg {
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 1rem;
+}
+.paletas {
+    background-image: url("icecream1.png");
+    width: 33rem;
+    height: 25rem;
+}
+
+.shakes {
+    background-image: url("icecream2.png");
+    width: 33rem;
+    height: 45rem;
+}
+
+.massas {
+    background-image: url(icecream3.png);
+    width: 33rem;
+    height: 25rem;
+}
+
+.picoles {
+    background-image: url(icecream4.png);
+    width: 33rem;
+    height: 45rem;
+}
+
+.card h2 {
+    color: var(--fc-thrid);
+    font-size: var(--fs-body);
+    border-radius: 20px;
+    background-color: var(--fc-fourth);
+    padding: 0 2.4rem;
+    display: inline-flex;
+    align-items: center;
+    object-fit: contain;
+    margin-right: 1rem;
+}
